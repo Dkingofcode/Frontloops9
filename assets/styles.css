@@ -11,7 +11,6 @@ body{
 }
 
 .Payment-section{
-    border: 1px solid;
     background-color: white;
     display: grid;
     width: 70%;
@@ -28,7 +27,6 @@ body{
 }
 
 .wallet header{
-    border: 1px solid;
     display: flex;
     padding: 20px 0;
     font-size: 20px;
@@ -42,7 +40,6 @@ body{
 }
 
 .wallet .main{
-    border: 1px solid;
     padding: 10px; 
 }
 
@@ -71,12 +68,12 @@ body{
 }
 
 h3{
+    
     color: black;
 }
 
 span {
    width: 17px;
-   border: 1px solid gold;
    height: 17px;
    margin-bottom: 10px;
 }
@@ -91,7 +88,6 @@ span {
 
 .Transactions header{
     display: flex;
-    border: 1px solid;
     padding: 10px 0;
     margin-bottom: 20px;
     font-size: 20px;
@@ -99,6 +95,7 @@ span {
 }
 .T-price{
     display: flex;
+    
 }
 
 .Transactions .list{
@@ -107,13 +104,11 @@ span {
 }
 
 .Transactions .list div{
-    border: 1px solid;
     display: flex;
     padding: 10px 0 10px 0;
     justify-content: space-between;
 }
 .Transactions .list div:first-child{
-    border: 1px solid yellow;
     margin-top: 40px;
 }
 
@@ -124,14 +119,11 @@ span {
 }
 
 .Transactions .list div .description:nth-child(3){
-    border: 1px solid lawngreen;
 }
 
-.num{
-   border: 1px solid;
-   padding: 2px;
 
-}
+
+
 .description h6{
     color: gray;
     font-size: 12px;
@@ -143,8 +135,8 @@ span {
     font-size: 15px;
 }
 
-.price p{
-    
+.price {
+    width: 50px;
 }
 
 
